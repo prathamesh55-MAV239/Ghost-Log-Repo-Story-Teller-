@@ -9,6 +9,15 @@ made during the "witching hour" (midnight–4am).
 Everything runs on your machine. No commit messages, authors, or code
 are ever sent to an external API.
 
+## 🎥 Demo video
+
+See GhostLog in action and watch it turn a repository's commit history
+into a spooky, story-driven ghost tale powered by a local Ollama model.
+
+[![GhostLog demo video](https://img.youtube.com/vi/4eQHvKpeTqM/maxresdefault.jpg)](https://youtu.be/4eQHvKpeTqM)
+
+Click the thumbnail above to watch the full demo on YouTube.
+
 ## 1. Install Ollama (one-time, ~2 min)
 
 Download from **https://ollama.com/download** (macOS/Windows/Linux,
