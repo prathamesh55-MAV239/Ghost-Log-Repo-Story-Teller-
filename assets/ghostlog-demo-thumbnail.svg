@@ -1,0 +1,116 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120725"/>
+      <stop offset="0.48" stop-color="#44105F"/>
+      <stop offset="1" stop-color="#6E1D8C"/>
+    </linearGradient>
+    <linearGradient id="pinkGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9AE6FF"/>
+      <stop offset="0.5" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FF8FEA"/>
+    </linearGradient>
+    <linearGradient id="screenGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7CF7FF"/>
+      <stop offset="1" stop-color="#B8FFDC"/>
+    </linearGradient>
+    <filter id="neon" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="#B5F0FF" flood-opacity="1"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="16" flood-color="#FF8DE8" flood-opacity="0.7"/>
+    </filter>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#D7B8FF" flood-opacity="0.8"/>
+    </filter>
+    <pattern id="stars" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="22" r="2" fill="#F0F8FF" fill-opacity="0.9"/>
+      <circle cx="66" cy="35" r="1.1" fill="#F0F8FF" fill-opacity="0.8"/>
+      <circle cx="80" cy="72" r="1.5" fill="#F0F8FF" fill-opacity="0.7"/>
+      <circle cx="48" cy="85" r="1.2" fill="#F0F8FF" fill-opacity="0.8"/>
+      <circle cx="90" cy="10" r="1.6" fill="#F0F8FF" fill-opacity="0.9"/>
+      <circle cx="9" cy="77" r="1.4" fill="#F0F8FF" fill-opacity="0.8"/>
+      <circle cx="35" cy="55" r="1.1" fill="#F0F8FF" fill-opacity="0.7"/>
+      <circle cx="58" cy="14" r="1.3" fill="#F0F8FF" fill-opacity="0.8"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#stars)" opacity="0.8"/>
+
+  <g opacity="0.8">
+    <path d="M170 98L190 78L210 98" stroke="#6BE2FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1070 145L1090 125L1110 145" stroke="#6BE2FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M360 180L375 165L390 180" stroke="#6BE2FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M890 220L905 205L920 220" stroke="#6BE2FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="640" y="164" text-anchor="middle" fill="url(#pinkGlow)" font-size="128" font-weight="900" letter-spacing="2" font-family="Verdana, Geneva, sans-serif" filter="url(#neon)" style="text-transform:uppercase;">GHOST LOG</text>
+
+  <g opacity="0.96">
+    <line x1="330" y1="205" x2="630" y2="205" stroke="#7ED8FF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="650" y1="205" x2="950" y2="205" stroke="#7ED8FF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <text x="640" y="270" text-anchor="middle" fill="#F7D6F4" font-size="44" font-weight="700" letter-spacing="2" font-family="Verdana, Geneva, sans-serif" filter="url(#softGlow)">THE REPO THAT TALKS TO THE DEAD</text>
+
+  <g transform="translate(0 12)">
+    <path d="M28 0C28 5 23 11 17 11C8 11 0 5 0 0C0 -9 5 -11 12 -15C17 -18 28 -15 28 0Z" fill="#DDF8FF" opacity="0.9"/>
+    <path d="M53 0C53 5 48 11 42 11C33 11 25 5 25 0C25 -9 30 -11 37 -15C42 -18 53 -15 53 0Z" fill="#DDF8FF" opacity="0.9"/>
+    <path d="M40 13C40 18 32 27 20 27C9 27 0 18 0 9C0 2 6 -4 17 -4C24 -4 28 0 32 1C36 2 40 6 40 13Z" fill="#DDF8FF" opacity="0.9"/>
+  </g>
+
+  <text x="640" y="340" text-anchor="middle" fill="#F7D6F4" font-size="52" font-weight="800" letter-spacing="5" font-family="Verdana, Geneva, sans-serif" filter="url(#softGlow)">DEMO VIDEO</text>
+
+  <g opacity="0.9">
+    <path d="M190 500C210 465 236 455 261 465C271 482 270 501 257 516C236 540 201 531 190 500Z" fill="none" stroke="#DFF8FF" stroke-width="4"/>
+    <path d="M350 470C385 440 418 450 445 485C465 510 459 540 433 556C393 581 350 559 350 470Z" fill="none" stroke="#DFF8FF" stroke-width="4"/>
+    <path d="M860 470C825 430 792 440 770 472C748 504 760 538 788 553C829 576 865 554 860 470Z" fill="none" stroke="#DFF8FF" stroke-width="4"/>
+    <path d="M1010 505C1038 473 1072 472 1096 496C1118 518 1116 551 1087 569C1053 590 1004 571 1010 505Z" fill="none" stroke="#DFF8FF" stroke-width="4"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <path d="M618 0L642 18L658 0L682 18L702 0L706 27L680 46L640 46L614 27L618 0Z" fill="#F1FCFF" opacity="0.18"/>
+  </g>
+
+  <g transform="translate(315 455) rotate(-2 0 0)">
+    <path d="M0 0L70 0L110 55L120 128L0 128L0 0Z" fill="#2B1B39" opacity="0.6"/>
+    <rect x="18" y="16" width="86" height="96" rx="4" fill="#B7FFF3" fill-opacity="0.18" stroke="#7CC9FF" stroke-width="2"/>
+    <rect x="25" y="14" width="73" height="87" rx="6" fill="#0A3839" opacity="0.85"/>
+    <path d="M28 42H68" stroke="#B5F7FF" stroke-width="2"/>
+    <path d="M30 52H76" stroke="#B5F7FF" stroke-width="2"/>
+    <path d="M30 60H73" stroke="#B5F7FF" stroke-width="2"/>
+    <path d="M34 76H69" stroke="#B5F7FF" stroke-width="2"/>
+    <path d="M36 84H66" stroke="#B5F7FF" stroke-width="2"/>
+    <path d="M108 60L126 60" stroke="#E1B0FF" stroke-width="2"/>
+    <path d="M124 60L124 98" stroke="#E1B0FF" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(540 430)">
+    <rect x="0" y="0" width="210" height="180" rx="12" fill="#1A0D2A" opacity="0.82"/>
+    <rect x="18" y="14" width="174" height="132" rx="7" fill="#107171" opacity="0.94" stroke="#78D8FF" stroke-width="3"/>
+    <text x="105" y="70" text-anchor="middle" fill="#D6FFFA" font-size="35" font-weight="900" font-family="Verdana, Geneva, sans-serif">GHOST V1.0</text>
+    <text x="105" y="112" text-anchor="middle" fill="#D6FFFA" font-size="20" font-weight="700" font-family="Verdana, Geneva, sans-serif" letter-spacing="2">COMMENCE</text>
+    <text x="105" y="138" text-anchor="middle" fill="#D6FFFA" font-size="20" font-weight="700" font-family="Verdana, Geneva, sans-serif" letter-spacing="2">PROTOCOL</text>
+  </g>
+
+  <g opacity="0.92">
+    <path d="M540 640H740" stroke="#83E9FF" stroke-width="4"/>
+    <path d="M740 640H960" stroke="#83E9FF" stroke-width="4"/>
+    <path d="M370 640H530" stroke="#83E9FF" stroke-width="4"/>
+    <path d="M960 640H1100" stroke="#83E9FF" stroke-width="4"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M0 640 H1280" stroke="#6FD4FF" stroke-width="3"/>
+  </g>
+
+  <g opacity="0.3">
+    <path d="M80 620L180 620" stroke="#7CEBFF" stroke-width="2"/>
+    <path d="M1100 620L1180 620" stroke="#7CEBFF" stroke-width="2"/>
+  </g>
+
+  <g opacity="0.9" transform="translate(1070 610)">
+    <rect x="0" y="0" width="40" height="55" rx="6" fill="#4E2E75" stroke="#7CEBFF" stroke-width="2"/>
+    <circle cx="20" cy="18" r="8" fill="#7CEBFF"/>
+    <path d="M18 28H23" stroke="#7CEBFF" stroke-width="2"/>
+  </g>
+</svg>

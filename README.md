@@ -14,7 +14,7 @@ are ever sent to an external API.
 See GhostLog in action and watch it turn a repository's commit history
 into a spooky, story-driven ghost tale powered by a local Ollama model.
 
-[![GhostLog demo video](https://img.youtube.com/vi/4eQHvKpeTqM/maxresdefault.jpg)](https://youtu.be/4eQHvKpeTqM)
+[![GhostLog demo video](assets/ghostlog-demo-thumbnail.svg)](https://youtu.be/4eQHvKpeTqM)
 
 Click the thumbnail above to watch the full demo on YouTube.
 
